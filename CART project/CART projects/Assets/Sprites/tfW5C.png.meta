@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 6e10c9f7f2ca812459831189d09ad0bf
+timeCreated: 1461444389
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tfW5C_0
+    21300002: tfW5C_1
+    21300004: tfW5C_2
+    21300006: tfW5C_3
+    21300008: tfW5C_4
+    21300010: tfW5C_5
+    21300012: tfW5C_6
+    21300014: tfW5C_7
+    21300016: tfW5C_8
+    21300018: tfW5C_9
+    21300020: tfW5C_10
+    21300022: tfW5C_11
+    21300024: tfW5C_12
+    21300026: tfW5C_13
+    21300028: tfW5C_14
+    21300030: tfW5C_15
+    21300032: tfW5C_16
+    21300034: tfW5C_17
+    21300036: tfW5C_18
+    21300038: tfW5C_19
+    21300040: tfW5C_20
+    21300042: tfW5C_21
+    21300044: tfW5C_22
+    21300046: tfW5C_23
+    21300048: tfW5C_24
+    21300050: tfW5C_25
+    21300052: tfW5C_26
+    21300054: tfW5C_27
+    21300056: tfW5C_28
+    21300058: tfW5C_29
+    21300060: tfW5C_30
+    21300062: tfW5C_31
+    21300064: tfW5C_32
+    21300066: tfW5C_33
+    21300068: tfW5C_34
+    21300070: tfW5C_35
+    21300072: tfW5C_36
+    21300074: tfW5C_37
+    21300076: tfW5C_38
+    21300078: tfW5C_39
+    21300080: tfW5C_40
+    21300082: tfW5C_41
+    21300084: tfW5C_42
+    21300086: tfW5C_43
+    21300088: tfW5C_44
+    21300090: tfW5C_45
+    21300092: tfW5C_46
+    21300094: tfW5C_47
+    21300096: tfW5C_48
+    21300098: tfW5C_49
+    21300100: tfW5C_50
+    21300102: tfW5C_51
+    21300104: tfW5C_52
+    21300106: tfW5C_53
+    21300108: tfW5C_54
+    21300110: tfW5C_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 35
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tfW5C_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 305
+        width: 41
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 308
+        width: 43
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 308
+        width: 38
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 306
+        width: 42
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 305
+        width: 44
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 303
+        width: 46
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 298
+        width: 48
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 301
+        width: 45
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_8
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 293
+        width: 60
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_9
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 308
+        width: 34
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_10
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 308
+        width: 32
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_11
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 304
+        width: 53
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_12
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 304
+        width: 55
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_13
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 303
+        width: 36
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 209
+        width: 41
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 212
+        width: 43
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 212
+        width: 38
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 211
+        width: 42
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_18
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 209
+        width: 44
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_19
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 207
+        width: 46
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_20
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 203
+        width: 48
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_21
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 205
+        width: 45
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_22
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 197
+        width: 60
+        height: 47
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_23
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 210
+        width: 34
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_24
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 210
+        width: 32
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_25
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 207
+        width: 53
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_26
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 207
+        width: 55
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_27
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 206
+        width: 36
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 113
+        width: 40
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_29
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 113
+        width: 41
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_30
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 112
+        width: 35
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_31
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 113
+        width: 39
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 110
+        width: 43
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_33
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 110
+        width: 46
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_34
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 106
+        width: 47
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_35
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 105
+        width: 39
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_36
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 105
+        width: 59
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_37
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 113
+        width: 41
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_38
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 113
+        width: 42
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_39
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 118
+        width: 47
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_40
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 118
+        width: 55
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_41
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 115
+        width: 45
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 40
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 17
+        width: 41
+        height: 67
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 16
+        width: 35
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_45
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 17
+        width: 39
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 14
+        width: 43
+        height: 72
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_47
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 14
+        width: 46
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_48
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 10
+        width: 47
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_49
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 9
+        width: 39
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_50
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 9
+        width: 59
+        height: 45
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_51
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 17
+        width: 41
+        height: 71
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_52
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 17
+        width: 42
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_53
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 22
+        width: 47
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_54
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 22
+        width: 55
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tfW5C_55
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 19
+        width: 45
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
