@@ -23,9 +23,14 @@ public class NodePreview : MonoBehaviour {
 		row = r;
 		column = c;
 		position = pos ;
-		color.a = 0.4f;
-		spriteRenderer.color = color;
 		usageID = useID;
+		SetColor (color);
+	}
+
+	public void SetColor(Color color)
+	{
+		color.a = 0.1f;
+		spriteRenderer.color = color;
 	}
 
 	void OnMouseDown()

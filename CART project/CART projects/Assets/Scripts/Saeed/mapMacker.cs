@@ -9,7 +9,7 @@ using System.Collections.Generic;
 //###########################################
 
 public class mapMacker : MonoBehaviour {
-	
+
 	public static mapMacker Instance{ private set; get;}
 	public List<Vector3> defaultNodes;
 
@@ -24,23 +24,23 @@ public class mapMacker : MonoBehaviour {
 	public int columnsCount;
 	public int rowsCount;
 	private pathFinder newmap;
-    private pathFinder.node[,] madeMapNodes;
+	private pathFinder.node[,] madeMapNodes;
 
 	void Awake()
 	{
 		Instance = this;
 		CreateMap ();
 	}
-		
-    public void CreateMap() 
+
+	public void CreateMap() 
 	{	
 		newmap = new pathFinder(mapCorner_leftUp, columnsCount, rowsCount, nodesOffset,pathFinder.CollisionDetectionMode.medium);
 		newmap.SetDefaultNodes(defaultNodes);
 		madeMapNodes = newmap.GetMapNodes();
 		MackeMapTestShape(madeMapNodes);
 		UpdateTestNodeState ();
-    }
-		
+	}
+
 
 	public List<Vector2> GetPath(int startID, Vector2 EndPoint , bool avoidContact)
 	{   
@@ -49,9 +49,9 @@ public class mapMacker : MonoBehaviour {
 		return newmap.PathPoses ();
 	}
 
-	public List<Vector2> GetPath(Vector2 startPoint, Vector2 EndPoint,bool avoidContact)
+	public List<Vector2> GetPath(Vector2 startPoint, Vector2 EndPoint, int id,bool avoidContact)
 	{   
-		newmap.GetPath(startPoint, EndPoint,avoidContact);
+		newmap.GetPath(startPoint, EndPoint,id,avoidContact);
 		UpdateTestNodeState ();
 		return newmap.PathPoses ();
 	}
@@ -69,14 +69,35 @@ public class mapMacker : MonoBehaviour {
 
 	public List<pathFinder.node> GetRange(int id , int step)
 	{   
-		return newmap.GetRange(id,step);
+		List<pathFinder.node> InRangeTiles =  newmap.GetRange(id,step);
+		ChangeTileRange (InRangeTiles);
+		return InRangeTiles;
 	}
 
 	public List<pathFinder.node> GetRange(Vector2 pos , int step)
 	{   
-		return newmap.GetRange(pos,step);
+		List<pathFinder.node> InRangeTiles =  newmap.GetRange(pos,step);
+		ChangeTileRange (InRangeTiles);
+		return InRangeTiles;
 	}
-		
+
+
+	private void ChangeTileRange(List<pathFinder.node> inRangeNide)
+	{	
+		pathFinder.node[,] allMapNodes = newmap.GetMapNodes();
+		for (int i = 0; i < allMapNodes.GetLength (0); i++) 
+		{	
+			for (int j = 0; j < allMapNodes.GetLength (1); j++) 
+			{
+				if (inRangeNide.Contains (allMapNodes [i, j])) {
+					TestNodeObjects [i, j].SetColor (Color.blue);
+				} else {
+					TestNodeObjects [i, j].SetColor (Color.white);
+				}
+			}
+		}
+	}
+
 
 	public void MackeMapTestShape(pathFinder.node[,] allMapNodes)
 	{	
@@ -90,7 +111,7 @@ public class mapMacker : MonoBehaviour {
 				pos.y = allMapNodes[i,j].pos.y;
 				GameObject newNode = Instantiate (NodeTile , pos , NodeTile.transform.rotation)as GameObject ;
 				newNode.transform.SetParent (tilsParent);
-                newNode.transform.localPosition = new Vector3(newNode.transform.position.x, newNode.transform.position.y, 1);
+				newNode.transform.localPosition = new Vector3(newNode.transform.position.x, newNode.transform.position.y, 1);
 				newNode.transform.localScale = tilsScale;
 				TestNodeObjects [i, j] = newNode.GetComponent<NodePreview> ();
 			}
@@ -127,9 +148,9 @@ public class mapMacker : MonoBehaviour {
 	}
 
 
-	//#############################################
-	//############   for test   ###################
-	//#############################################
+	//###############################################
+	//############   For Test  ######################
+	//###############################################
 
 	private NodePreview NodePreview_1;
 	private NodePreview NodePreview_2;
@@ -143,7 +164,7 @@ public class mapMacker : MonoBehaviour {
 				allMapNodes [NP.row, NP.column].usageID = -1;
 			else
 				allMapNodes [NP.row, NP.column].usageID = 0;
-			
+
 			UpdateTestNodeState ();
 			return;
 		}

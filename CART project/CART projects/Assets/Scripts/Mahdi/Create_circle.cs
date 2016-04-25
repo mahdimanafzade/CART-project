@@ -10,11 +10,11 @@ public class Create_circle : MonoBehaviour {
         circle_renderer = GetComponent<LineRenderer>();
         if (gameObject.tag == "soldior_card")
         {
-            range = GetComponent<Soldior_Card>().soldior_Card_property.range;
+            range = GetComponent<Attack_card>().range;
         }
         else if (gameObject.tag == "supporter_card")
         {
-            range = GetComponent<Supporter_Card>().supporter_Card_property.range;
+            range = GetComponent<Support_card>().range;
         }
 
 	}

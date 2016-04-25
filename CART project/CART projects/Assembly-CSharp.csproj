@@ -45,33 +45,30 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Mahdi\AI_enemy.cs" />
+     <Compile Include="Assets\Scripts\Mahdi\Attack_card.cs" />
      <Compile Include="Assets\Scripts\Mahdi\CameraZoomControl.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Card.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Card_property.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Create_circle.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Elixir_progress.cs" />
      <Compile Include="Assets\Scripts\Mahdi\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Mahdi\Health.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Line.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Menu.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Move_card.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Player1.cs" />
-     <Compile Include="Assets\Scripts\Mahdi\Soldior_Card.cs" />
-     <Compile Include="Assets\Scripts\Mahdi\Supporter_Card.cs" />
+     <Compile Include="Assets\Scripts\Mahdi\Player2.cs" />
+     <Compile Include="Assets\Scripts\Mahdi\Support_card.cs" />
      <Compile Include="Assets\Scripts\Saeed\NodePreview.cs" />
      <Compile Include="Assets\Scripts\Saeed\mapMacker.cs" />
      <Compile Include="Assets\Scripts\Saeed\pathFinder.cs" />
-     <Compile Include="Assets\Scripts\Saeed\pathFlowerTest.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\Scripts\Saeed\pathFollower.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>E:/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

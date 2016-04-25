@@ -134,13 +134,52 @@ public class pathFinder  {
 		}
 	}
 		
+
+	//##########################################################
+	//##### Call this method to Get position of card id ########
+	//##########################################################
+
+	public Vector2 GetPos(int id,out bool s)
+	{
+		foreach(node tmp in NodeArray)
+		{
+			if (tmp.usageID == id) {
+				s = true;
+				return tmp.pos;
+			}
+				
+		}
+		s = false;
+		return Vector2.zero ;
+	}
+
+
 	//####################################################################
 	//##### Call this method to calculate pass betweeon two point ########
 	//####################################################################
 
-	public void GetPath(Vector2 from , Vector2 to , bool avoidContact)
+	public void GetPath(Vector2 from , Vector2 to , int id ,bool avoidContact)
 	{	
+		startID = id;
 		ResetForNewPath ();
+		Debug.Log (id  );
+
+
+
+		foreach (node tmp in NodeArray) {	
+			if (tmp.usageID == id) {
+				tmp.usageID = freeNodesID;
+				Debug.LogError (tmp.rowIndex + "  "+tmp.columnIndex + " "+tmp.usageID);
+			}
+		}
+
+		foreach (node tmp in NodeArray) {	
+			if (tmp.usageID == id) {
+				Debug.LogError (tmp.usageID);
+			}
+		}
+
+
 		float distToStart = Vector2.Distance (NodeArray[0,0].pos,from);
 		float distToEnd = Vector2.Distance (NodeArray[0,0].pos,to);
 		foreach (node tmp in NodeArray) 
@@ -156,6 +195,8 @@ public class pathFinder  {
 				TargetPoint = tmp;
 			}
 		}
+			
+
 		openList.Add (StartPoint);
 		StartPathFinding (avoidContact);
 	}
@@ -166,8 +207,11 @@ public class pathFinder  {
 
 	public void GetPath(int fromID , Vector2 to ,bool avoidContact)
 	{	
+		Debug.Log (fromID );
+
 		startID = fromID;
 		ResetForNewPath ();
+
 		float distToEnd = Vector2.Distance (NodeArray[0,0].pos,to);
 		bool startFound = false;
 		bool endFound = false;
@@ -186,9 +230,18 @@ public class pathFinder  {
 				endFound = true;
 			}
 		}
+
+		foreach (node tmp in NodeArray) {	
+			if (tmp.usageID == fromID) {
+				tmp.usageID = freeNodesID;
+			}
+		}
+
 		if (!startFound || !endFound)
 			return;
-	
+
+
+
 		openList.Add (StartPoint);
 		StartPathFinding (avoidContact);
 	}
@@ -218,7 +271,7 @@ public class pathFinder  {
 		}
 		if (!startFound || !endFound)
 			return;
-		
+
 		openList.Add (StartPoint);
 		StartPathFinding (avoidContact);
 	}

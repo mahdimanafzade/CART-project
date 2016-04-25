@@ -3,19 +3,20 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 public class Move_card : MonoBehaviour {
-    
-    bool check=false;
-    Card card;
-    float _speed;
-    
+    bool check = false;
     Transform _transform;
-    int _id;
+    public float speed = 1;
+
+    
+    public Card card;
     int pathindex=0;
-    Elixir_progress elixir;
+    public Elixir_progress elixir;
 	// Use this for initialization
 	void Start () {
-        card=GetComponent<Card>();
-        elixir = GameManager._instance.elixir;
+        card=GetComponent<Card>();        
+        //elixir = GameManager._instance.elixir;
+    
+        
 	}
 	void OnEnable(){
         if(_transform==null){
@@ -25,55 +26,53 @@ public class Move_card : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-	
+        
 	}
 
     public void stop_move(){
         StopCoroutine("move_coroutine");
     }
-    public void move_mode(int id,Vector2 target,ref float speed){
-        if (!check) { 
-            move(target,ref speed);
-        }
-        else{
-            move(id,target,ref speed);
-        }
-    }
-
-    public void move(int id,Vector2 target,ref float speed)
-    {
-		print ("**************************");        
-        _speed=speed;
-
-        print(id);
-        print(target);
-
-        stop_move();
-        List<Vector2> pathNods = mapMacker.Instance.GetPath(id, target, true);
-
-        StopCoroutine("move_coroutine");
-        StartCoroutine("move_coroutine", pathNods);
-
-    }
-
     
-    public void move(Vector2 target, ref float speed)
-    {
-        print("**************************");
-        
-        _speed = speed;
 
+    public void move(List<Vector2> pathNods)
+    {
+    
+        
+        if (pathNods.Count == 0)
+        {
+            return;
+        }
+        stop_move();
+        card.card_state = Card_state.move;
+        StartCoroutine("move_coroutine", pathNods);
+    }
+
+    public void move(Vector2 target)
+    {
+        
+        
+        List<Vector2> pathNods = new List<Vector2>();
+        print("ccccccccccccccc   :   " + check);
+        /*	if (check) 
+                pathNods = mapMacker.Instance.GetPath (id, target, true);
+            else 
+                pathNods = mapMacker.Instance.GetPath(new Vector2(transform.position.x,transform.position.y), target , id , true);
+    */
+        pathNods = mapMacker.Instance.GetPath(new Vector2(transform.position.x, transform.position.y), target, card.id, true);
+
+        if (pathNods.Count == 0)
+            return;
 
         stop_move();
-        List<Vector2> pathNods = mapMacker.Instance.GetPath(transform.position, target, true);
-
-        StopCoroutine("move_coroutine");
+        card.card_state = Card_state.move;
         StartCoroutine("move_coroutine", pathNods);
 
     }
 
+   
 
-    IEnumerator move_coroutine(List<Vector2> pathNods)
+
+     IEnumerator move_coroutine(List<Vector2> pathNods)
     {
         float dist;
         Vector3 path_target;
@@ -82,7 +81,7 @@ public class Move_card : MonoBehaviour {
         print("***");
         check = false;
         bool success_elixir=elixir.check_elixir(pathNods.Count);
-        if (success_elixir)
+		if (success_elixir)
         {
             while (true)
             {
@@ -90,7 +89,7 @@ public class Move_card : MonoBehaviour {
                 path_target = new Vector3(pathNods[pathindex].x, pathNods[pathindex].y, _transform.position.z);
                 dist = Vector3.Distance(path_target, _transform.position);
 
-                _transform.position = Vector3.MoveTowards(_transform.position, path_target, Time.deltaTime * _speed);
+                _transform.position = Vector3.MoveTowards(_transform.position, path_target, Time.deltaTime * speed);
                 if (dist < 0.1f)
                 {
                     if (pathindex < pathNods.Count - 1)
@@ -105,9 +104,12 @@ public class Move_card : MonoBehaviour {
 
                 yield return null;
             }
-            card.card_state = Card_state.none;
+            
         }
+        card.card_state = Card_state.none;
     }
-
-
+     
 }
+
+
+
