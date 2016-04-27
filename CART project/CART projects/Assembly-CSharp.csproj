@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Mahdi\Player1.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Player2.cs" />
      <Compile Include="Assets\Scripts\Mahdi\Support_card.cs" />
+     <Compile Include="Assets\Scripts\Mahdi\Town.cs" />
      <Compile Include="Assets\Scripts\Saeed\NodePreview.cs" />
      <Compile Include="Assets\Scripts\Saeed\mapMacker.cs" />
      <Compile Include="Assets\Scripts\Saeed\pathFinder.cs" />

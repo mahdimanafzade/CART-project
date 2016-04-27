@@ -41,7 +41,10 @@ public class mapMacker : MonoBehaviour {
 		UpdateTestNodeState ();
 	}
 
-
+    public pathFinder.node GetNode(int id)
+	{
+        return newmap.GetNode(id);
+    }
 	public List<Vector2> GetPath(int startID, Vector2 EndPoint , bool avoidContact)
 	{   
 		newmap.GetPath(startID, EndPoint,avoidContact);

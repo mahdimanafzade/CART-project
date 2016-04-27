@@ -139,18 +139,18 @@ public class pathFinder  {
 	//##### Call this method to Get position of card id ########
 	//##########################################################
 
-	public Vector2 GetPos(int id,out bool s)
+	public node GetNode(int id)
 	{
+        
 		foreach(node tmp in NodeArray)
 		{
 			if (tmp.usageID == id) {
-				s = true;
-				return tmp.pos;
+
+                return tmp;
 			}
 				
 		}
-		s = false;
-		return Vector2.zero ;
+        return null;
 	}
 
 

@@ -119,8 +119,11 @@ public class Attack_card : MonoBehaviour
     public void attack(Health health_cardEnemy)
     {
             card.card_state = Card_state.attack;
+            StopCoroutine("attackTown_coroutine");
             StopCoroutine("attack_coroutine");
-            move_card.stop_move();
+
+            //move_card.sw_Stopmove=true;
+            //move_card.stop_move();
 
 
             StartCoroutine("attack_coroutine", health_cardEnemy);
@@ -157,6 +160,7 @@ public class Attack_card : MonoBehaviour
 
         }
     }
+    
     /*public void move(Vector2 target)
     {
         card.card_state = Card_state.move;
@@ -164,6 +168,52 @@ public class Attack_card : MonoBehaviour
         move_card.move(target);
 
     }*/
+
+
+
+
+    public void attack_town(Town town)
+    {
+        card.card_state = Card_state.attack;
+        StopCoroutine("attackTown_coroutine");
+        StopCoroutine("attack_coroutine");
+        //move_card.sw_Stopmove=true;
+        //move_card.stop_move();
+
+
+        StartCoroutine("attackTown_coroutine", town);
+    }
+
+    IEnumerator attackTown_coroutine(Town town)
+    {
+        float disToTown;
+        while (card.card_state == Card_state.attack)
+        {
+            disToTown = Vector2.Distance(transform.position, town.transform.position);
+
+            if (disToTown < range)
+            {
+                if (town.current_health > 0)
+                {
+                    town.current_health -= Time.deltaTime * attack_point * attack_ratio;
+                }
+                else
+                {                 
+                    town.town_state = Town_state.death;
+
+                    card.card_state = Card_state.none;
+                    break;
+                }
+                yield return null;
+            }
+            else
+            {
+                card.card_state = Card_state.none;
+                break;
+            }
+
+        }
+    }
 }
 
 

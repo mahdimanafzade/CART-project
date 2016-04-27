@@ -17,8 +17,8 @@ public class Player1 : MonoBehaviour
     GameObject prev_mycard_obj = null;
 
     Card enemyCard;
-    Health health_enemyCard;
-
+    Health health_enemy;
+    Town town_enemy;
     Card myCard;
 
 
@@ -50,6 +50,26 @@ public class Player1 : MonoBehaviour
                 }
                 else if (touch.phase == TouchPhase.Ended && finger_id == touch.fingerId && begin_selectedObj == raycasthit.collider.gameObject)
                 {
+                    if (prev_mycard_obj!=null && raycasthit.collider.tag == "enemyTown") // attack to enemy town 
+                    {
+                        if (prev_mycard_obj.tag == "soldior_card")
+                        {
+                            town_enemy = raycasthit.collider.gameObject.GetComponent<Town>();
+                            if (selected_card_id != -1)
+                            {
+                                selected_card_id = -1;
+                                myCard.selected_card = false;
+                                myCard.fx_active.SetActive(false);
+                                mycard_obj.GetComponent<LineRenderer>().enabled = false;
+                                print("attackTown");
+                                mycard_obj.GetComponent<Attack_card>().attack_town(town_enemy);
+
+                            }
+
+                        }
+                    }
+
+                    
 
                     if (raycasthit.collider.tag == "soldior_card" || raycasthit.collider.tag == "supporter_card")
                     {
@@ -97,7 +117,7 @@ public class Player1 : MonoBehaviour
                     {
                         if (prev_mycard_obj.tag == "soldior_card")
                         {
-                            health_enemyCard = raycasthit.collider.gameObject.GetComponent<Health>();
+                            health_enemy = raycasthit.collider.gameObject.GetComponent<Health>();
                             if (selected_card_id != -1)
                             {
                                 selected_card_id = -1;
@@ -105,7 +125,7 @@ public class Player1 : MonoBehaviour
                                 myCard.fx_active.SetActive(false);
                                 mycard_obj.GetComponent<LineRenderer>().enabled = false;
                                 print("attack");
-                                mycard_obj.GetComponent<Attack_card>().attack(health_enemyCard);
+                                mycard_obj.GetComponent<Attack_card>().attack(health_enemy);
 
                             }
 

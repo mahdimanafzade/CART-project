@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 public class Move_card : MonoBehaviour {
+    public bool sw_Stopmove=false;
     bool check = false;
     Transform _transform;
     public float speed = 1;
@@ -75,6 +76,7 @@ public class Move_card : MonoBehaviour {
      IEnumerator move_coroutine(List<Vector2> pathNods)
     {
         float dist;
+        
         Vector3 path_target;
 
         pathindex = 0;
@@ -92,6 +94,13 @@ public class Move_card : MonoBehaviour {
                 _transform.position = Vector3.MoveTowards(_transform.position, path_target, Time.deltaTime * speed);
                 if (dist < 0.1f)
                 {
+                    
+                    card._node = mapMacker.Instance.GetNode(card.id);
+
+                    /*if (sw_Stopmove) { // move is stopped when the card want to attack or support
+                        sw_Stopmove = false;
+                        break;
+                    }*/
                     if (pathindex < pathNods.Count - 1)
                         pathindex++;
                     else
@@ -108,7 +117,9 @@ public class Move_card : MonoBehaviour {
         }
         card.card_state = Card_state.none;
     }
-     
+
+
+    
 }
 
 

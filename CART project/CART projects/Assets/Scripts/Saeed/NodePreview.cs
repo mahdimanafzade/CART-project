@@ -13,9 +13,11 @@ public class NodePreview : MonoBehaviour {
 	public int column;
 	public Vector2 position;
 	public int usageID;
+    
 	void Awake()
 	{
 		spriteRenderer.color = Color.white;
+        
 	}
 
 	public void SetNodeInfo(Vector2 pos , int r,int c,Color color , int useID)
@@ -29,7 +31,7 @@ public class NodePreview : MonoBehaviour {
 
 	public void SetColor(Color color)
 	{
-		color.a = 0.1f;
+		color.a = 0.3f;
 		spriteRenderer.color = color;
 	}
 
@@ -45,4 +47,10 @@ public class NodePreview : MonoBehaviour {
 			mapMacker.Instance .NodeClicked(this,true);
 		}
 	}
+    void Update() { 
+        if(usageID!=-2 && usageID!=-1){
+            spriteRenderer.color=Color.black;
+        }
+        
+    }
 }

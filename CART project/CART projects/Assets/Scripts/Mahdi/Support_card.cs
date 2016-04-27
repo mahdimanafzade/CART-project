@@ -67,8 +67,8 @@ public class Support_card : MonoBehaviour
         else if (support_num < support_num_limit && soldior_card.support_num < soldior_card.support_num_limit)
         {
 
-            move_card.stop_move();
-
+            //move_card.stop_move();
+            //card.card_state = Card_state.none;
             if (specialType ==SpecialType.supporter_monk)
             {
                 StartCoroutine("support_hpimprove_coroutine", soldior_cardObj);
