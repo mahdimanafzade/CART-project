@@ -20,24 +20,30 @@ public class NodePreview : MonoBehaviour {
         
 	}
 
-	public void SetNodeInfo(Vector2 pos , int r,int c,Color color , int useID)
+	public void SetNodeInfo(Vector2 pos , int r,int c , int useID)
 	{
 		row = r;
 		column = c;
 		position = pos ;
 		usageID = useID;
-		SetColor (color);
 	}
+
+    public void SetUsageID(int useID) 
+    {
+        usageID = useID;
+    }
 
 	public void SetColor(Color color)
 	{
-		color.a = 0.3f;
 		spriteRenderer.color = color;
 	}
 
 	void OnMouseDown()
 	{
-		mapMacker.Instance .NodeClicked(this,false);
+        if (mapMacker.Instance!=null)
+		    mapMacker.Instance .NodeClicked(this,false);
+        
+
 	}
 
 	void OnMouseOver()
@@ -53,4 +59,6 @@ public class NodePreview : MonoBehaviour {
         }
         
     }
+
+
 }

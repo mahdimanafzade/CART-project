@@ -33,7 +33,7 @@ public class AI_enemy : MonoBehaviour {
         if (attack_card.closest_card != null)
         {
             
-            List<Vector2> pathNods = new List<Vector2>();
+            List<pathFinder.node> pathNods = new List<pathFinder.node>();
             pathNods = mapMacker.Instance.GetPath(new Vector2(_transform.position.x, _transform.position.y), attack_card.closest_card.transform.position, card.id, false);
 
             pathNods.RemoveAt(pathNods.Count - 1);

@@ -12,6 +12,7 @@ public class mapMacker : MonoBehaviour {
 
 	public static mapMacker Instance{ private set; get;}
 	public List<Vector3> defaultNodes;
+    public List<Vector2> flag_Nodes;
 
 
 	private NodePreview[,] TestNodeObjects;
@@ -26,6 +27,10 @@ public class mapMacker : MonoBehaviour {
 	private pathFinder newmap;
 	private pathFinder.node[,] madeMapNodes;
 
+    public Color redColor;
+    public Color whiteColor;
+    public Color blackColor;
+
 	void Awake()
 	{
 		Instance = this;
@@ -35,7 +40,7 @@ public class mapMacker : MonoBehaviour {
 	public void CreateMap() 
 	{	
 		newmap = new pathFinder(mapCorner_leftUp, columnsCount, rowsCount, nodesOffset,pathFinder.CollisionDetectionMode.medium);
-		newmap.SetDefaultNodes(defaultNodes);
+		newmap.SetDefaultNodes(defaultNodes);        
 		madeMapNodes = newmap.GetMapNodes();
 		MackeMapTestShape(madeMapNodes);
 		UpdateTestNodeState ();
@@ -52,11 +57,11 @@ public class mapMacker : MonoBehaviour {
 		return newmap.PathPoses ();
 	}
 
-	public List<Vector2> GetPath(Vector2 startPoint, Vector2 EndPoint, int id,bool avoidContact)
+	public List<pathFinder.node> GetPath(Vector2 startPoint, Vector2 EndPoint, int id,bool avoidContact)
 	{   
 		newmap.GetPath(startPoint, EndPoint,id,avoidContact);
 		UpdateTestNodeState ();
-		return newmap.PathPoses ();
+		return newmap.PathNodes ();
 	}
 
 	public List<Vector2> GetPath(int startID, int EndPoint , bool avoidContact)
@@ -135,16 +140,18 @@ public class mapMacker : MonoBehaviour {
 			{
 				if (foundPathNode.Contains (allMapNodes [i, j])) 
 				{
-					TestNodeObjects [i, j].SetNodeInfo (allMapNodes [i, j].pos, allMapNodes [i, j].rowIndex, allMapNodes [i, j].columnIndex, Color.red, allMapNodes [i, j].usageID);
-
+					TestNodeObjects [i, j].SetNodeInfo (allMapNodes [i, j].pos, allMapNodes [i, j].rowIndex, allMapNodes [i, j].columnIndex, allMapNodes [i, j].usageID);
+                    TestNodeObjects[i, j].SetColor(redColor);
 				} 
 				else if (allMapNodes [i, j].usageID==-1) 
 				{
-					TestNodeObjects [i, j].SetNodeInfo (allMapNodes [i, j].pos, allMapNodes [i, j].rowIndex, allMapNodes [i, j].columnIndex, Color.black,allMapNodes [i, j].usageID);
+					TestNodeObjects [i, j].SetNodeInfo (allMapNodes [i, j].pos, allMapNodes [i, j].rowIndex, allMapNodes [i, j].columnIndex,allMapNodes [i, j].usageID);
+                    TestNodeObjects[i, j].SetColor(blackColor);
 				}
 				else 
 				{
-					TestNodeObjects [i, j].SetNodeInfo (allMapNodes[i,j].pos,allMapNodes[i,j].rowIndex,allMapNodes[i,j].columnIndex,Color.white,allMapNodes [i, j].usageID);
+					TestNodeObjects [i, j].SetNodeInfo (allMapNodes[i,j].pos,allMapNodes[i,j].rowIndex,allMapNodes[i,j].columnIndex,allMapNodes [i, j].usageID);
+                    TestNodeObjects[i, j].SetColor(whiteColor);
 				}
 			}
 		}

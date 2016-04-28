@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 public class Move_card : MonoBehaviour {
+    pathFinder.node final_targetNode;
+    pathFinder.node current_targetNode;
     public bool sw_Stopmove=false;
     bool check = false;
     Transform _transform;
@@ -11,6 +13,7 @@ public class Move_card : MonoBehaviour {
     
     public Card card;
     int pathindex=0;
+
     public Elixir_progress elixir;
 	// Use this for initialization
 	void Start () {
@@ -35,7 +38,7 @@ public class Move_card : MonoBehaviour {
     }
     
 
-    public void move(List<Vector2> pathNods)
+    public void move(List<pathFinder.node> pathNods)
     {
     
         
@@ -50,15 +53,16 @@ public class Move_card : MonoBehaviour {
 
     public void move(Vector2 target)
     {
+
+
+        List<pathFinder.node> pathNods = new List<pathFinder.node>();
         
-        
-        List<Vector2> pathNods = new List<Vector2>();
-        print("ccccccccccccccc   :   " + check);
         /*	if (check) 
                 pathNods = mapMacker.Instance.GetPath (id, target, true);
             else 
                 pathNods = mapMacker.Instance.GetPath(new Vector2(transform.position.x,transform.position.y), target , id , true);
     */
+
         pathNods = mapMacker.Instance.GetPath(new Vector2(transform.position.x, transform.position.y), target, card.id, true);
 
         if (pathNods.Count == 0)
@@ -94,7 +98,6 @@ public class Move_card : MonoBehaviour {
                 _transform.position = Vector3.MoveTowards(_transform.position, path_target, Time.deltaTime * speed);
                 if (dist < 0.1f)
                 {
-                    
                     card._node = mapMacker.Instance.GetNode(card.id);
 
                     /*if (sw_Stopmove) { // move is stopped when the card want to attack or support
@@ -105,7 +108,7 @@ public class Move_card : MonoBehaviour {
                         pathindex++;
                     else
                     {
-                        
+                     //   _transform.position = card._node.pos;
                         check = true;
                         break;
                     }
