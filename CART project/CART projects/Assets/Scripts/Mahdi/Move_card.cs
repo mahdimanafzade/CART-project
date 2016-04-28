@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 public class Move_card : MonoBehaviour {
+    
     pathFinder.node final_targetNode;
     pathFinder.node current_targetNode;
     public bool sw_Stopmove=false;
@@ -38,18 +39,7 @@ public class Move_card : MonoBehaviour {
     }
     
 
-    public void move(List<pathFinder.node> pathNods)
-    {
     
-        
-        if (pathNods.Count == 0)
-        {
-            return;
-        }
-        stop_move();
-        card.card_state = Card_state.move;
-        StartCoroutine("move_coroutine", pathNods);
-    }
 
     public void move(Vector2 target)
     {
@@ -62,12 +52,17 @@ public class Move_card : MonoBehaviour {
             else 
                 pathNods = mapMacker.Instance.GetPath(new Vector2(transform.position.x,transform.position.y), target , id , true);
     */
-
+        if (current_targetNode != null)
+        {
+            current_targetNode.usageID = -2;
+        }
         pathNods = mapMacker.Instance.GetPath(new Vector2(transform.position.x, transform.position.y), target, card.id, true);
-
+        
         if (pathNods.Count == 0)
             return;
-
+        
+        final_targetNode = pathNods[pathNods.Count - 1];
+        current_targetNode = pathNods[0];
         stop_move();
         card.card_state = Card_state.move;
         StartCoroutine("move_coroutine", pathNods);
@@ -77,7 +72,7 @@ public class Move_card : MonoBehaviour {
    
 
 
-     IEnumerator move_coroutine(List<Vector2> pathNods)
+     IEnumerator move_coroutine(List<pathFinder.node> pathNods)
     {
         float dist;
         
@@ -92,23 +87,26 @@ public class Move_card : MonoBehaviour {
             while (true)
             {
 
-                path_target = new Vector3(pathNods[pathindex].x, pathNods[pathindex].y, _transform.position.z);
+                path_target = new Vector3(pathNods[pathindex].pos.x, pathNods[pathindex].pos.y, _transform.position.z);
                 dist = Vector3.Distance(path_target, _transform.position);
 
                 _transform.position = Vector3.MoveTowards(_transform.position, path_target, Time.deltaTime * speed);
                 if (dist < 0.1f)
                 {
                     card._node = mapMacker.Instance.GetNode(card.id);
-
+                    
                     /*if (sw_Stopmove) { // move is stopped when the card want to attack or support
                         sw_Stopmove = false;
                         break;
                     }*/
                     if (pathindex < pathNods.Count - 1)
+                    {
                         pathindex++;
+                        current_targetNode = pathNods[pathindex];
+                    }
                     else
                     {
-                     //   _transform.position = card._node.pos;
+                        //   _transform.position = card._node.pos;
                         check = true;
                         break;
                     }
