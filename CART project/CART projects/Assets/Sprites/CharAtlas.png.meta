@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 71561c41b59058140b99c90db9b563f4
+timeCreated: 1461598794
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CharAtlas_0
+    21300002: CharAtlas_1
+    21300004: CharAtlas_2
+    21300006: CharAtlas_3
+    21300008: CharAtlas_4
+    21300010: CharAtlas_5
+    21300012: CharAtlas_6
+    21300014: CharAtlas_7
+    21300016: CharAtlas_8
+    21300018: CharAtlas_9
+    21300020: CharAtlas_10
+    21300022: CharAtlas_11
+    21300024: CharAtlas_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CharAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 764
+        width: 194
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 113.5}
+        - {x: -86, y: 87.5}
+        - {x: -90, y: 63.5}
+        - {x: -90, y: 32.5}
+        - {x: -89, y: 28.5}
+        - {x: -68, y: -69.5}
+        - {x: -43, y: -115.5}
+        - {x: 70, y: -115.5}
+        - {x: 89, y: -53.5}
+        - {x: 89, y: 113.5}
+    - name: CharAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 766
+        width: 200
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 117.5}
+        - {x: -2, y: 117.5}
+        - {x: -24, y: 92.5}
+        - {x: -99, y: -29.5}
+        - {x: -99, y: -77.5}
+        - {x: -91, y: -111.5}
+        - {x: -43, y: -118.5}
+        - {x: 19, y: -118.5}
+        - {x: 58, y: -114.5}
+        - {x: 93, y: -86.5}
+        - {x: 93, y: 9.5}
+        - {x: 36, y: 114.5}
+      - - {x: -71, y: 9.5}
+        - {x: -68, y: 6.5}
+        - {x: -65, y: 7.5}
+        - {x: -65, y: 10.5}
+        - {x: -66, y: 12.5}
+        - {x: -69, y: 12.5}
+        - {x: -71, y: 11.5}
+      - - {x: -61, y: 57.5}
+        - {x: -63, y: 56.5}
+        - {x: -63, y: 52.5}
+        - {x: -61, y: 51.5}
+        - {x: -57, y: 51.5}
+        - {x: -57, y: 57.5}
+    - name: CharAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 766
+        width: 126
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 5.5}
+        - {x: 39, y: 3.5}
+        - {x: 58, y: 26.5}
+        - {x: 58, y: 41.5}
+        - {x: 51, y: 44.5}
+        - {x: 47, y: 42.5}
+        - {x: 44, y: 38.5}
+        - {x: 37, y: 99.5}
+        - {x: 28, y: 117.5}
+        - {x: -22, y: 117.5}
+        - {x: -50, y: 114.5}
+        - {x: -50, y: -102.5}
+        - {x: 26, y: -102.5}
+        - {x: 36, y: -10.5}
+        - {x: 27, y: 4.5}
+        - {x: 23, y: 10.5}
+    - name: CharAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 773
+        width: 191
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: -59}
+        - {x: 63.5, y: -68}
+        - {x: 94.5, y: -63}
+        - {x: 94.5, y: 15}
+        - {x: 74.5, y: 89}
+        - {x: 51.5, y: 116}
+        - {x: -38.5, y: 116}
+        - {x: -95.5, y: 72}
+        - {x: -95.5, y: -92}
+        - {x: 31.5, y: -92}
+        - {x: 60.5, y: -81}
+        - {x: 59.5, y: -64}
+        - {x: 58.5, y: -57}
+    - name: CharAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 798
+        width: 216
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: 75.5}
+        - {x: 33, y: 95.5}
+        - {x: -6, y: 101.5}
+        - {x: -40, y: 101.5}
+        - {x: -66, y: 91.5}
+        - {x: -101, y: 31.5}
+        - {x: -101, y: -38.5}
+        - {x: -86, y: -79.5}
+        - {x: -70, y: -92.5}
+        - {x: -13, y: -106.5}
+        - {x: 63, y: -106.5}
+        - {x: 97, y: -94.5}
+        - {x: 98, y: -87.5}
+        - {x: 98, y: 21.5}
+    - name: CharAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 545
+        width: 230
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -102}
+        - {x: -25, y: -105}
+        - {x: -22, y: -105}
+        - {x: -20, y: -103}
+        - {x: -21, y: -100}
+        - {x: -24, y: -100}
+      - - {x: -106, y: 106}
+        - {x: -106, y: 23}
+        - {x: -61, y: -100}
+        - {x: 73, y: -100}
+        - {x: 110, y: -59}
+        - {x: 110, y: 106}
+    - name: CharAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 526
+        width: 176
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 117.5}
+        - {x: -53, y: 65.5}
+        - {x: -85, y: 63.5}
+        - {x: -86, y: 61.5}
+        - {x: -86, y: -106.5}
+        - {x: 53, y: -106.5}
+        - {x: 72, y: -2.5}
+        - {x: 72, y: 52.5}
+        - {x: 31, y: 117.5}
+    - name: CharAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 532
+        width: 148
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: -49}
+        - {x: -71, y: -56}
+        - {x: -30, y: -104}
+        - {x: 23, y: -104}
+        - {x: 58, y: -98}
+        - {x: 58, y: 11}
+        - {x: 28, y: 111}
+        - {x: -48, y: 111}
+        - {x: -73, y: 59}
+    - name: CharAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 572
+        width: 221
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -6.5}
+        - {x: 30.5, y: -2.5}
+        - {x: 28.5, y: -2.5}
+        - {x: 35.5, y: -2.5}
+        - {x: 62.5, y: -17.5}
+        - {x: 103.5, y: 40.5}
+        - {x: 103.5, y: 53.5}
+        - {x: -52.5, y: 53.5}
+        - {x: -110.5, y: 46.5}
+        - {x: -110.5, y: 1.5}
+        - {x: -82.5, y: -26.5}
+        - {x: -36.5, y: -56.5}
+        - {x: -23.5, y: -56.5}
+        - {x: -13.5, y: -59.5}
+        - {x: 21.5, y: -59.5}
+        - {x: 27.5, y: -56.5}
+        - {x: 47.5, y: -24.5}
+        - {x: 45.5, y: -12.5}
+    - name: CharAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 549
+        width: 180
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78, y: -67.5}
+        - {x: -49, y: -91.5}
+        - {x: 13, y: -91.5}
+        - {x: 81, y: -73.5}
+        - {x: 81, y: 2.5}
+        - {x: 69, y: 53.5}
+        - {x: 56, y: 95.5}
+        - {x: -78, y: 95.5}
+    - name: CharAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 293
+        width: 221
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106.5, y: -87.5}
+        - {x: 106.5, y: -24.5}
+        - {x: 43.5, y: 111.5}
+        - {x: -27.5, y: 111.5}
+        - {x: -103.5, y: -2.5}
+        - {x: -103.5, y: -58.5}
+        - {x: -95.5, y: -59.5}
+        - {x: -83.5, y: -53.5}
+        - {x: -34.5, y: -114.5}
+        - {x: -28.5, y: -115.5}
+        - {x: -5.5, y: -115.5}
+        - {x: -0.5, y: -109.5}
+        - {x: 4.5, y: -115.5}
+        - {x: 51.5, y: -115.5}
+    - name: CharAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 290
+        width: 215
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 111}
+        - {x: -19.5, y: 111}
+        - {x: -46.5, y: 71}
+        - {x: -105.5, y: -37}
+        - {x: -105.5, y: -73}
+        - {x: -101.5, y: -100}
+        - {x: 88.5, y: -100}
+        - {x: 107.5, y: -29}
+        - {x: 107.5, y: 23}
+        - {x: 97.5, y: 69}
+    - name: CharAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 420
+        width: 141
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.5, y: -29}
+        - {x: -64.5, y: -33}
+        - {x: -61.5, y: -32}
+        - {x: -61.5, y: -29}
+        - {x: -65.5, y: -25}
+        - {x: -68.5, y: -26}
+      - - {x: 66.5, y: -23}
+        - {x: 66.5, y: -26}
+        - {x: 68.5, y: -28}
+        - {x: 70.5, y: -27}
+        - {x: 70.5, y: -23}
+        - {x: 69.5, y: -22}
+      - - {x: -70.5, y: -27}
+        - {x: -67.5, y: -26}
+        - {x: -67.5, y: -23}
+        - {x: -69.5, y: -21}
+        - {x: -70.5, y: -21}
+      - - {x: -4.5, y: 36}
+        - {x: -67.5, y: 10}
+        - {x: -67.5, y: -23}
+        - {x: -62.5, y: -27}
+        - {x: 63.5, y: -27}
+        - {x: 67.5, y: -24}
+        - {x: 67.5, y: 12}
+        - {x: 10.5, y: 36}
+      - - {x: -66.5, y: 22}
+        - {x: -64.5, y: 20}
+        - {x: -61.5, y: 21}
+        - {x: -61.5, y: 24}
+        - {x: -63.5, y: 26}
+        - {x: -66.5, y: 25}
+      - - {x: 61.5, y: 22}
+        - {x: 63.5, y: 20}
+        - {x: 66.5, y: 21}
+        - {x: 66.5, y: 24}
+        - {x: 64.5, y: 26}
+        - {x: 61.5, y: 25}
+      - - {x: -60.5, y: 25}
+        - {x: -58.5, y: 23}
+        - {x: -51.5, y: 26}
+        - {x: -51.5, y: 29}
+        - {x: -53.5, y: 31}
+        - {x: -60.5, y: 28}
+      - - {x: 50.5, y: 29}
+        - {x: 50.5, y: 27}
+        - {x: 52.5, y: 25}
+        - {x: 58.5, y: 23}
+        - {x: 61.5, y: 24}
+        - {x: 61.5, y: 26}
+        - {x: 56.5, y: 30}
+        - {x: 52.5, y: 31}
+      - - {x: -43.5, y: 31}
+        - {x: -41.5, y: 29}
+        - {x: -36.5, y: 32}
+        - {x: -37.5, y: 35}
+        - {x: -41.5, y: 35}
+        - {x: -43.5, y: 33}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

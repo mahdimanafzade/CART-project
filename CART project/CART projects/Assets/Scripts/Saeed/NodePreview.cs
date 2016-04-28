@@ -40,9 +40,10 @@ public class NodePreview : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-        if (mapMacker.Instance!=null)
-		    mapMacker.Instance .NodeClicked(this,false);
-        
+		if (mapMacker.Instance != null)
+			mapMacker.Instance.NodeClicked (this, false);
+		else if (InitialMap.Instance != null)
+			InitialMap.Instance.tileClicked (this);
 
 	}
 
@@ -54,7 +55,8 @@ public class NodePreview : MonoBehaviour {
 		}
 	}
     void Update() { 
-        if(usageID!=-2 && usageID!=-1){
+        if(usageID!=-2 && usageID!=-1)
+		{
             spriteRenderer.color=Color.black;
         }
         
