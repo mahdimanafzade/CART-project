@@ -33,16 +33,17 @@ public class AI_enemy : MonoBehaviour {
         if (attack_card.closest_card != null)
         {
             
-        /*    List<pathFinder.node> pathNods = new List<pathFinder.node>();
-            pathNods = mapMacker.Instance.GetPath(new Vector2(_transform.position.x, _transform.position.y), attack_card.closest_card.transform.position, card.id, false);
+            //List<pathFinder.node> pathNods = new List<pathFinder.node>();
+            //pathNods = mapMacker.Instance.GetPath(new Vector2(_transform.position.x, _transform.position.y), attack_card.closest_card.transform.position, card.id, false);
 
-            pathNods.RemoveAt(pathNods.Count - 1);
+            //pathNods.RemoveAt(pathNods.Count - 1);
 
-            if (pathNods.Count == 0)
-            {
-                return;
-            }            
-            move_card.move();*/
+            //if (pathNods.Count == 0)
+            //{
+              //  return;
+            //}
+            print(attack_card.closest_card.transform.position);
+            move_card.move(attack_card.closest_card.transform.position);
             
         }
     }

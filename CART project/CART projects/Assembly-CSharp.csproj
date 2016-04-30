@@ -78,6 +78,7 @@
      <Compile Include="Assets\Scripts\Saeed\mapMacker.cs" />
      <Compile Include="Assets\Scripts\Saeed\pathFinder.cs" />
      <Compile Include="Assets\Scripts\Saeed\pathFollower.cs" />
+     <Compile Include="Assets\Sprites\test character\Move_man_temp.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

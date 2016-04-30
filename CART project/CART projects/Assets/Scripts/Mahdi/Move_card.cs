@@ -60,7 +60,8 @@ public class Move_card : MonoBehaviour {
         
         if (pathNods.Count == 0)
             return;
-        
+
+        print("count: "+pathNods.Count);
         final_targetNode = pathNods[pathNods.Count - 1];
         current_targetNode = pathNods[0];
         stop_move();
@@ -75,12 +76,16 @@ public class Move_card : MonoBehaviour {
      IEnumerator move_coroutine(List<pathFinder.node> pathNods)
     {
         float dist;
-        
+        Vector2 new_nodeVec;
+        Vector2 _nodeVec;
+        pathFinder.node newnode;
+
         Vector3 path_target;
 
         pathindex = 0;
-        print("***");
+        print("***: "+pathNods.Count);
         check = false;
+
         bool success_elixir=elixir.check_elixir(pathNods.Count);
 		if (success_elixir)
         {
@@ -93,16 +98,27 @@ public class Move_card : MonoBehaviour {
                 _transform.position = Vector3.MoveTowards(_transform.position, path_target, Time.deltaTime * speed);
                 if (dist < 0.1f)
                 {
-                    card._node = mapMacker.Instance.GetNode(card.id);
+                    _nodeVec=new Vector2(card._node.rowIndex,card._node.columnIndex);
+                    newnode=mapMacker.Instance.GetNode(card.id);
+                    new_nodeVec=new Vector2(newnode.rowIndex,newnode.columnIndex);
+
+                    card.set_direction(_nodeVec,new_nodeVec);
+                    card._node = newnode;
                     
                     /*if (sw_Stopmove) { // move is stopped when the card want to attack or support
                         sw_Stopmove = false;
                         break;
                     }*/
-                    if (pathindex < pathNods.Count - 1)
+
+                    if (pathindex < pathNods.Count - 2)
                     {
                         pathindex++;
                         current_targetNode = pathNods[pathindex];
+                    }
+                    else if (pathindex == pathNods.Count - 2) { 
+                       /* if(){
+
+                        }*/
                     }
                     else
                     {
