@@ -110,6 +110,7 @@ public class Card:MonoBehaviour {
         _animator.SetTrigger("attack");
     }     
     void Update() {
+		print ("rrrr"+card_state);
         if (card_state == Card_state.none) {
             play_idleAnimation();
         }

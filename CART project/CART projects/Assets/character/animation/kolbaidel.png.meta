@@ -1,0 +1,1320 @@
+fileFormatVersion: 2
+guid: 1dc5cf66c6a9d054dba1e4b65c71b879
+timeCreated: 1462023625
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kolbaidel_0
+    21300002: kolbaidel_1
+    21300004: kolbaidel_2
+    21300006: kolbaidel_3
+    21300008: kolbaidel_4
+    21300010: kolbaidel_5
+    21300012: kolbaidel_6
+    21300014: kolbaidel_7
+    21300016: kolbaidel_8
+    21300018: kolbaidel_9
+    21300020: kolbaidel_10
+    21300022: kolbaidel_11
+    21300024: kolbaidel_12
+    21300026: kolbaidel_13
+    21300028: kolbaidel_14
+    21300030: kolbaidel_15
+    21300032: kolbaidel_16
+    21300034: kolbaidel_17
+    21300036: kolbaidel_18
+    21300038: kolbaidel_19
+    21300040: kolbaidel_20
+    21300042: kolbaidel_21
+    21300044: kolbaidel_22
+    21300046: kolbaidel_23
+    21300048: kolbaidel_24
+    21300050: kolbaidel_25
+    21300052: kolbaidel_26
+    21300054: kolbaidel_27
+    21300056: kolbaidel_28
+    21300058: kolbaidel_29
+    21300060: kolbaidel_30
+    21300062: kolbaidel_31
+    21300064: kolbaidel_32
+    21300066: kolbaidel_33
+    21300068: kolbaidel_34
+    21300070: kolbaidel_35
+    21300072: kolbaidel_36
+    21300074: kolbaidel_37
+    21300076: kolbaidel_38
+    21300078: kolbaidel_39
+    21300080: kolbaidel_40
+    21300082: kolbaidel_41
+    21300084: kolbaidel_42
+    21300086: kolbaidel_43
+    21300088: kolbaidel_44
+    21300090: kolbaidel_45
+    21300092: kolbaidel_46
+    21300094: kolbaidel_47
+    21300096: kolbaidel_48
+    21300098: kolbaidel_49
+    21300100: kolbaidel_50
+    21300102: kolbaidel_51
+    21300104: kolbaidel_52
+    21300106: kolbaidel_53
+    21300108: kolbaidel_54
+    21300110: kolbaidel_55
+    21300112: kolbaidel_56
+    21300114: kolbaidel_57
+    21300116: kolbaidel_58
+    21300118: kolbaidel_59
+    21300120: kolbaidel_60
+    21300122: kolbaidel_61
+    21300124: kolbaidel_62
+    21300126: kolbaidel_63
+    21300128: kolbaidel_64
+    21300130: kolbaidel_65
+    21300132: kolbaidel_66
+    21300134: kolbaidel_67
+    21300136: kolbaidel_68
+    21300138: kolbaidel_69
+    21300140: kolbaidel_70
+    21300142: kolbaidel_71
+    21300144: kolbaidel_72
+    21300146: kolbaidel_73
+    21300148: kolbaidel_74
+    21300150: kolbaidel_75
+    21300152: kolbaidel_76
+    21300154: kolbaidel_77
+    21300156: kolbaidel_78
+    21300158: kolbaidel_79
+    21300160: kolbaidel_80
+    21300162: kolbaidel_81
+    21300164: kolbaidel_82
+    21300166: kolbaidel_83
+    21300168: kolbaidel_84
+    21300170: kolbaidel_85
+    21300172: kolbaidel_86
+    21300174: kolbaidel_87
+    21300176: kolbaidel_88
+    21300178: kolbaidel_89
+    21300180: kolbaidel_90
+    21300182: kolbaidel_91
+    21300184: kolbaidel_92
+    21300186: kolbaidel_93
+    21300188: kolbaidel_94
+    21300190: kolbaidel_95
+    21300192: kolbaidel_96
+    21300194: kolbaidel_97
+    21300196: kolbaidel_98
+    21300198: kolbaidel_99
+    21300200: kolbaidel_100
+    21300202: kolbaidel_101
+    21300204: kolbaidel_102
+    21300206: kolbaidel_103
+    21300208: kolbaidel_104
+    21300210: kolbaidel_105
+    21300212: kolbaidel_106
+    21300214: kolbaidel_107
+    21300216: kolbaidel_108
+    21300218: kolbaidel_109
+    21300220: kolbaidel_110
+    21300222: kolbaidel_111
+    21300224: kolbaidel_112
+    21300226: kolbaidel_113
+    21300228: kolbaidel_71.1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kolbaidel_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1861
+        width: 136
+        height: 185
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1848
+        width: 106
+        height: 198
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1852
+        width: 74
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1854
+        width: 83
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_4
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1842
+        width: 109
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_5
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1842
+        width: 91
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_6
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1844
+        width: 71
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1840
+        width: 90
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_8
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1846
+        width: 122
+        height: 199
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_9
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1828
+        width: 120
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_10
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1828
+        width: 120
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_11
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1830
+        width: 122
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_12
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1830
+        width: 120
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_13
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1828
+        width: 120
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1619
+        width: 154
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1613
+        width: 149
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1630
+        width: 132
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1624
+        width: 116
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1626
+        width: 115
+        height: 208
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_19
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1632
+        width: 107
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_20
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1624
+        width: 119
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_21
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1618
+        width: 138
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_22
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1616
+        width: 152
+        height: 218
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_23
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1618
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_24
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1618
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_25
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1618
+        width: 121
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_26
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1618
+        width: 120
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_27
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1618
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1385
+        width: 142
+        height: 221
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1383
+        width: 145
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_30
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1402
+        width: 150
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1384
+        width: 153
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_32
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1382
+        width: 152
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_33
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1392
+        width: 152
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_34
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1396
+        width: 152
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_35
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1390
+        width: 148
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_36
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1388
+        width: 143
+        height: 217
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_37
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1396
+        width: 120
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_38
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1394
+        width: 120
+        height: 217
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_39
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1396
+        width: 120
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_40
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1400
+        width: 120
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_41
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1398
+        width: 120
+        height: 213
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1176
+        width: 142
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1168
+        width: 145
+        height: 208
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_44
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1180
+        width: 150
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_45
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1182
+        width: 153
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_46
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1166
+        width: 152
+        height: 207
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_47
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1172
+        width: 152
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_48
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1188
+        width: 152
+        height: 186
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_49
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1186
+        width: 148
+        height: 187
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_50
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1174
+        width: 143
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_51
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1184
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_52
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1185
+        width: 120
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_53
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1184
+        width: 120
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_54
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1184
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_55
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1184
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 966
+        width: 133
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_57
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 961
+        width: 109
+        height: 199
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_58
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 972
+        width: 111
+        height: 187
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_59
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 962
+        width: 134
+        height: 197
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_60
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 948
+        width: 159
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_61
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 952
+        width: 147
+        height: 208
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_62
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 964
+        width: 127
+        height: 196
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_63
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 966
+        width: 106
+        height: 194
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_64
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 970
+        width: 118
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_65
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 963
+        width: 120
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_66
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 964
+        width: 119
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_67
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 964
+        width: 116
+        height: 213
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_68
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 964
+        width: 108
+        height: 214
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_69
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 962
+        width: 112
+        height: 215
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_70
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 738
+        width: 170
+        height: 210
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_71
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 727
+        width: 161
+        height: 221
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_72
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 738
+        width: 190
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_73
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 724
+        width: 119
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_74
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 742
+        width: 147
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_75
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 754
+        width: 167
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_76
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 760
+        width: 178
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_77
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 752
+        width: 120
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_78
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 754
+        width: 119
+        height: 202
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_79
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 752
+        width: 116
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_80
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 752
+        width: 108
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_81
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 752
+        width: 112
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_82
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 483
+        width: 144
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_83
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 487
+        width: 182
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_84
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 485
+        width: 213
+        height: 221
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_85
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 483
+        width: 110
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_86
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 459
+        width: 140
+        height: 247
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_87
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 465
+        width: 142
+        height: 242
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_88
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 477
+        width: 111
+        height: 230
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_89
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 475
+        width: 104
+        height: 231
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_90
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 485
+        width: 127
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_91
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 498
+        width: 88
+        height: 229
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_92
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 501
+        width: 152
+        height: 226
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_93
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 507
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_94
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 499
+        width: 176
+        height: 228
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_95
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 250
+        width: 132
+        height: 229
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_96
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 239
+        width: 116
+        height: 240
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_97
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 240
+        width: 116
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_98
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 232
+        width: 217
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_99
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 230
+        width: 167
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_100
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 228
+        width: 170
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_101
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1
+        width: 167
+        height: 225
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_102
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 0
+        width: 178
+        height: 229
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_103
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 224
+        width: 160
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_104
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 244
+        width: 192
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_105
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 2
+        width: 111
+        height: 242
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 171
+        height: 234
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_107
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 150
+        height: 236
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_108
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 4
+        width: 181
+        height: 208
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_109
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 5
+        width: 172
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_110
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 4
+        width: 119
+        height: 213
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_111
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 11
+        width: 147
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_112
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 0
+        width: 135
+        height: 243
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_113
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 4
+        width: 87
+        height: 232
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kolbaidel_71.1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 706
+        width: 189
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
