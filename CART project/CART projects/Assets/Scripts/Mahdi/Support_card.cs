@@ -29,8 +29,7 @@ public class Support_card : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        card=GetComponent<Card>();
-        card.card_state = Card_state.none;
+        card=GetComponent<Card>();        
         move_card=GetComponent<Move_card>();
         
 

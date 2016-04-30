@@ -92,9 +92,7 @@ public class Attack_card : MonoBehaviour
         card=GetComponent<Card>();
         move_card = GetComponent<Move_card>();
         health_component = GetComponent<Health>();
-        //current_health = soldior_Card_property.health_base;
-        card.card_state = Card_state.none;
-
+        //current_health = soldior_Card_property.health_base;        
     }
 
     // Update is called once per frame
@@ -119,6 +117,7 @@ public class Attack_card : MonoBehaviour
     public void attack(Health health_cardEnemy)
     {
             card.card_state = Card_state.attack;
+            card.play_attackAnimation();
             StopCoroutine("attackTown_coroutine");
             StopCoroutine("attack_coroutine");
 
@@ -148,13 +147,15 @@ public class Attack_card : MonoBehaviour
                     health_cardEnemy.card.card_state = Card_state.death;
                     
                     card.card_state = Card_state.none;
+                    card.play_idleAnimation();
                     break;
                 }
                 yield return null;
             }
             else
-            {
+            {                
                 card.card_state = Card_state.none;
+                card.play_idleAnimation();
                 break;
             }
 
@@ -175,6 +176,7 @@ public class Attack_card : MonoBehaviour
     public void attack_town(Town town)
     {
         card.card_state = Card_state.attack;
+        card.play_attackAnimation();
         StopCoroutine("attackTown_coroutine");
         StopCoroutine("attack_coroutine");
         //move_card.sw_Stopmove=true;
@@ -202,6 +204,7 @@ public class Attack_card : MonoBehaviour
                     town.town_state = Town_state.death;
 
                     card.card_state = Card_state.none;
+                    card.play_idleAnimation();
                     break;
                 }
                 yield return null;
@@ -209,6 +212,7 @@ public class Attack_card : MonoBehaviour
             else
             {
                 card.card_state = Card_state.none;
+                card.play_idleAnimation();
                 break;
             }
 

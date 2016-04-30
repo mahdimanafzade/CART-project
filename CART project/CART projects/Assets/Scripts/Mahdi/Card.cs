@@ -21,7 +21,7 @@ public class Card:MonoBehaviour {
     Animator _animator;
     
     public int id = 0;
-    public Direction direction=Direction.left;
+    public Direction direction=Direction.right;
 
     public Card_state card_state;
     public bool selected_card = false;
@@ -32,6 +32,10 @@ public class Card:MonoBehaviour {
     float right_val=0;
     void Start() {
         _animator=GetComponent<Animator>();
+        card_state = Card_state.none;
+        play_idleAnimation();
+
+
         fx_active = transform.GetChild(0).gameObject;
         _node=mapMacker.Instance.GetNode(id);
     }
@@ -92,36 +96,26 @@ public class Card:MonoBehaviour {
 
     public void play_idleAnimation()
     {
-      
+        print("***");
         _animator.SetFloat("up",up_val);
         _animator.SetFloat("right",right_val);
-        _animator.SetTrigger("idle");
+        _animator.SetInteger("animation", 0);
     }
     public void play_moveAnimation()
     {
         _animator.SetFloat("up", up_val);
         _animator.SetFloat("right", right_val);
-        _animator.SetTrigger("move");
+        _animator.SetInteger("animation", 1);
     }
     public void play_attackAnimation()
     {
         _animator.SetFloat("up", up_val);
         _animator.SetFloat("right", right_val);
-        _animator.SetTrigger("attack");
+        _animator.SetInteger("animation", 2);
     }     
     void Update() {
-		print ("rrrr"+card_state);
-        if (card_state == Card_state.none) {
-            play_idleAnimation();
-        }
-        else if (card_state == Card_state.move)
-        {
-            play_moveAnimation();
-        }
-        else if (card_state == Card_state.attack)
-        {
-            play_attackAnimation();
-        }
+	
+    
     }
 }
 

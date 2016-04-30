@@ -31,7 +31,7 @@ public class Move_card : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        
+        print(card.card_state);
 	}
 
     public void stop_move(){
@@ -65,7 +65,7 @@ public class Move_card : MonoBehaviour {
         final_targetNode = pathNods[pathNods.Count - 1];
         current_targetNode = pathNods[0];
         stop_move();
-        card.card_state = Card_state.move;
+        
         StartCoroutine("move_coroutine", pathNods);
 
     }
@@ -87,10 +87,25 @@ public class Move_card : MonoBehaviour {
         check = false;
 
         bool success_elixir=elixir.check_elixir(pathNods.Count);
-		if (success_elixir)
+        if (success_elixir && pathNods.Count>1)
         {
+
+
+            
+            card.card_state = Card_state.move;
+            _nodeVec = new Vector2(card._node.rowIndex, card._node.columnIndex);
+            newnode = pathNods[1];
+
+            new_nodeVec = new Vector2(newnode.rowIndex, newnode.columnIndex);
+
+            card.set_direction(_nodeVec, new_nodeVec);
+            card.play_moveAnimation();
+            card._node = newnode;
+            
+            
             while (true)
             {
+                
 
                 path_target = new Vector3(pathNods[pathindex].pos.x, pathNods[pathindex].pos.y, _transform.position.z);
                 dist = Vector3.Distance(path_target, _transform.position);
@@ -98,12 +113,8 @@ public class Move_card : MonoBehaviour {
                 _transform.position = Vector3.MoveTowards(_transform.position, path_target, Time.deltaTime * speed);
                 if (dist < 0.1f)
                 {
-                    _nodeVec=new Vector2(card._node.rowIndex,card._node.columnIndex);
-                    newnode=mapMacker.Instance.GetNode(card.id);
-                    new_nodeVec=new Vector2(newnode.rowIndex,newnode.columnIndex);
 
-                    card.set_direction(_nodeVec,new_nodeVec);
-                    card._node = newnode;
+                    
                     
                     /*if (sw_Stopmove) { // move is stopped when the card want to attack or support
                         sw_Stopmove = false;
@@ -115,7 +126,9 @@ public class Move_card : MonoBehaviour {
                         pathindex++;
                         current_targetNode = pathNods[pathindex];
                     }
-                    else if (pathindex == pathNods.Count - 2) { 
+                    else if (pathindex == pathNods.Count - 2) {
+                        pathindex++;
+                        current_targetNode = pathNods[pathindex];
                        /* if(){
 
                         }*/
@@ -126,6 +139,15 @@ public class Move_card : MonoBehaviour {
                         check = true;
                         break;
                     }
+
+                    _nodeVec = new Vector2(card._node.rowIndex, card._node.columnIndex);
+                    newnode = pathNods[pathindex];
+                    new_nodeVec = new Vector2(newnode.rowIndex, newnode.columnIndex);
+
+                    card.set_direction(_nodeVec, new_nodeVec);
+                    card.play_moveAnimation();
+                    card._node = newnode;
+
                 }
 
                 yield return null;
@@ -133,6 +155,7 @@ public class Move_card : MonoBehaviour {
             
         }
         card.card_state = Card_state.none;
+        card.play_idleAnimation();
     }
 
 
